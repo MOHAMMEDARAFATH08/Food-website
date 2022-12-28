@@ -1,0 +1,45 @@
+.foodimage{
+    margin-top: 100px;
+}
+.stockimg1{
+    height: 330px;
+    width: 540px;
+    border-radius: 30px;
+    margin-top: 130px;
+    margin-left: -120px;
+    transform: rotate(10deg);
+    z-index: 999;
+    position: relative;
+    transition: 2s ease;
+}
+.stockimg2{
+    height: 320px;
+    width: 530px;
+    border-radius: 30px;
+    margin-top: -270px;
+    margin-left: 330px;
+    transform: rotate(-10deg);
+    transition: 2s ease;
+}
+.stockimg2:hover {
+    transform: rotate(0);
+}
+.stockimg1:hover {
+    transform: rotate(0);
+}
+.quote1{
+    margin-top: 100px;
+    font-size: 60px;
+}
+.quote2{
+    margin-top: -20px;
+}
+
+@media only screen and (max-width: 600px) {
+   .stockimg1 {
+    display: none;
+   } 
+   .stockimg2 {
+    display: none;
+   } 
+}
