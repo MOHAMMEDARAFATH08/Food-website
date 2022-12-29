@@ -8,14 +8,15 @@
 
 .stockimg1{
     height: 400px;
-    width: 770px;
+    width: 700px;
     border-radius: 30px;
     margin-top: -60px;
-    margin-left: -100px;
+    margin-left: -70px;
     transform: rotate(10deg);
     z-index: 999;
     position: relative;
     transition: 2s ease;
+    box-shadow: -30px 40px 50px 10px grey;
 }
 .border1{
     border: solid black 1px;
@@ -26,6 +27,9 @@
     margin-left: -120px;
     transform: rotate(5deg);
 }
+.picture2{
+    margin-left: 10px;
+}
 .stockimg2{
     height: 380px;
     width: 530px;
@@ -34,6 +38,7 @@
     margin-left: 330px;
     transform: rotate(-10deg);
     transition: 2s ease;
+    box-shadow: -30px -40px 50px 10px grey;
 }
 .border2{
     border: solid black 1px;
@@ -70,6 +75,7 @@
     margin-left: 400px;
 
 }
+
 @media only screen and (max-width: 768px) {
     /* For mobile phones: */
     [class*="col-"] {
